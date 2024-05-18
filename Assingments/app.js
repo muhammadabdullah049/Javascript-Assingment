@@ -289,11 +289,20 @@ var playButton = document.getElementsByClassName("reset")[0];
 var lapButton = document.getElementsByClassName("play")[0];
 var resetButton = document.getElementsByClassName("lap")[0];
 
+var isPlay = false
+
 var toggleButton = () => {
     lapButton.classList.remove("hidden");
     resetButton.classList.remove("hidden"); 
 }
 var play = () => {
+    if (!isPlay) {
+        playButton.innerHTML = 'Pause'
+        isPlay = false;
+    }else{
+        playButton.innerHTML = 'Play'
+        isPlay = true;
+    }
     toggleButton();
 }
 playButton.addEventListener("click", play);
