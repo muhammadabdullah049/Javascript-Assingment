@@ -1,19 +1,22 @@
-let string = "";
-let buttons = document.querySelectorAll('.button');
-Array.from(buttons).forEach((button)=>{
-  button.addEventListener('click', (e)=>{
-    if(e.target.innerHTML == '='){
-      string = eval(string);
-      document.querySelector('input').value = string;
+
+
+
+var display = document.getElementById("display");
+
+function appendToDisplay(input){
+    display.value += input;
+}
+
+function clearDisplay(){
+    display.value = "";
+}
+
+function calculate(){
+    try{
+        display.value = eval(display.value);
     }
-    else if(e.target.innerHTML == 'C'){
-      string = ""
-      document.querySelector('input').value = string;
+    catch(error){
+        display.value = "Error";
     }
-    else{ 
-    console.log(e.target)
-    string = string + e.target.innerHTML;
-    document.querySelector('input').value = string;
-      }
-  })
-})
+}
+
