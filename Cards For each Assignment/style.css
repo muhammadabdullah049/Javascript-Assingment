@@ -1,0 +1,44 @@
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fruit-card {
+    background-image: url(https://images.unsplash.com/photo-1584306670957-acf935f5033c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwcGxlfGVufDB8fDB8fHww);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fruit-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.edit-btn,
+.delete-btn {
+    width: 100px;
+    font-family: sans-serif;
+    font-size: bold;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgba(181, 59, 59, 0.526);
+    border-radius: 10%;
+
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #ddd;
+} */
