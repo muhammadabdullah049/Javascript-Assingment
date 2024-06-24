@@ -101,6 +101,9 @@
 
 // Mock data for temperatures
 // Mock data for temperatures
+
+
+
 const mockWeatherData = {
     Karachi: { temperature: '32°C' },
     Lahore: { temperature: '30°C' },

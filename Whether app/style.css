@@ -95,6 +95,8 @@ button:hover {
     margin-top: 10px;
 } */
 
+
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -103,7 +105,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(https://media0.giphy.com/media/ZRDPmhN95QKuakOpKW/giphy.webp?cid=ecf05e47i38s6ge0lk1kiaeanzf43b1a4grwk6cyta2kqww4&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    background-image: url(https://wallpapers.com/images/high/sea-of-clouds-sky-background-mm5t0g3r76d274pi.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
     min-height: 100vh;
@@ -121,8 +123,8 @@ nav {
 }
 
 nav button {
-    background-color: rgba(135, 197, 222, 0.463);
-	color: rgba(232, 180, 84, 0.681);
+    background-color: rgba(113, 198, 234, 0.705);
+	color: white;
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -133,8 +135,9 @@ nav button {
 }
 
 nav button:hover {
-    background-color: rgba(232, 180, 84, 0.934);
-    color: white;
+    border: none;
+    background-color: white;
+    color: rgba(113, 198, 234, 0.705);
     transform: scale(1.1);
 }
 
@@ -148,24 +151,25 @@ main {
     padding: 20px;
     border-radius: 10px;
     width: 300px;
-    background-image:url(https://media1.giphy.com/media/xT9DPAG03SyJ3LEwwM/giphy.webp?cid=790b7611q7l05i5x69s9hik8moi0q3zc1qmcqm7lhxy8frv6&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    background-color: #e6e4e4af;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #weather-info h2 {
     margin-top: 0;
     font-size: 24px;
-    color: rgba(179, 123, 18, 0.826);
+    border-color: 1px solid rgb(76, 161, 198);
+    color: rgba(113, 198, 234, 0.705);
 }
 
 #city-name {
     font-size: 20px;
-    color: rgb(104, 104, 220);
+    color: white;
 }
 
 #temperature {
     font-size: 18px;
-	color: white;
+	color: rgba(57, 95, 233, 0.756);
 }
 
 .hidden {
